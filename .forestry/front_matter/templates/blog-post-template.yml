@@ -17,3 +17,9 @@ fields:
     schema:
       format: markdown
   label: Content
+  description: Content of the blog post
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
+  description: Photos of the job
