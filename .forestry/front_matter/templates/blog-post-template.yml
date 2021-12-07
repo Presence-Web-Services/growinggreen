@@ -23,3 +23,5 @@ fields:
   config: {}
   label: Photos
   description: Photos of the job
+pages:
+- content/Posts/test-post.md
