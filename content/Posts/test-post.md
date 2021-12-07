@@ -1,6 +1,5 @@
 +++
 content = "This is my test post. It's my first blog post for this website."
-draft = true
 photos = []
 title = "Test post"
 
