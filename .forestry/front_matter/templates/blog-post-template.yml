@@ -1,4 +1,19 @@
 ---
-label: Blog post template
+label: Blog Post Template
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Blog post title
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
